@@ -12,7 +12,7 @@ public class Principal {
         Scanner scan = new Scanner (System.in);
         
         System.out.print(" nome "); 
-        carro01.nome = scan.next();
+        carro01.setNome (scan.next());
         
         System.out.print(" marca ");
         carro01.marca = scan.next();
